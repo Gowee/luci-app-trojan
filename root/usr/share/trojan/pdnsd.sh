@@ -1,4 +1,4 @@
-#!/bin/bash /etc/rc.common
+#!/bin/sh /etc/rc.common
 . /lib/functions.sh
 
 	dns_mode=$(uci get trojan.@settings[0].dns_mode 2>/dev/null)

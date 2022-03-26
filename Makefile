@@ -11,7 +11,8 @@ define Package/luci-app-trojan
 	CATEGORY:=LuCI
 	SUBMENU:=2. Trojan
 	TITLE:=LuCI app for Trojan
-	DEPENDS:=+luci-base +wget-ssl +unzip +ip +iptables +bash +ipset +libmbedtls +ca-certificates +iptables-mod-tproxy +pdnsd-alt +curl +dnscrypt-proxy +coreutils +coreutils-base64 +luci-compat
+	# DEPENDS:=+luci-base +wget-ssl +unzip +ip +iptables +bash +ipset +libmbedtls +ca-certificates +iptables-mod-tproxy +pdnsd-alt +curl +dnscrypt-proxy +coreutils +coreutils-base64 +luci-compat
+	DEPENDS:=+luci-base +iptables +ipset +iptables-mod-tproxy +pdnsd-alt +luci-compat
 	PKGARCH:=all
 	MAINTAINER:=frainzy1477
 endef

@@ -1,4 +1,4 @@
-#!/bin/sh /etc/rc.common
+#!/bin/bash /etc/rc.common
 . /lib/functions.sh
 Core=/usr/bin/trojan-go
 NAME=trojan

@@ -1,4 +1,4 @@
-#!/bin/sh /etc/rc.common
+#!/bin/bash /etc/rc.common
 . /lib/functions.sh
 
 lang=$(uci get luci.main.lang 2>/dev/null)
